@@ -1,6 +1,6 @@
 <?php 
  // all the credentials for the db are placed outside of the www directory for security reasons
-	$config = parse_ini_file('/var/www/vhosts/hosting1839.af915.netcup.net/httpdocs/digComp/db.ini');
+	$config = parse_ini_file('ENTER URL HERE');
 	$conn = new mysqli($config['host'],$config['username'],$config['password'],$config['db']);
 	if(!$conn){
 			die("Failed to connect to Database"); 
